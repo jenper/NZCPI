@@ -2,7 +2,7 @@ Package: NZCPI
 Title: NZ CPI metrics
 Version: 0.0.0.9000
 Authors@R: 
-    person("Jennifer", "Perry", , "jenlyperry@gmail.com", role = c("aut"),
+    person("Jennifer", "Perry", , "jenlyperry@gmail.com", role = c("aut", "cre"),
            comment = c(ORCID = "0000-0001-9919-3663"))
 Description: Using NZ CPI data from the Stats NZ website or the saved CPI data this package can plot and calculate the percentage change of the NZ CPI between given dates and can apply the NZ CPI to given data.
 License: `use_gpl3_license()`
