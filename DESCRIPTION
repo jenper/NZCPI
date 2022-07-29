@@ -1,12 +1,20 @@
 Package: NZCPI
-Title: What the Package Does (One Line, Title Case)
+Title: NZ CPI metrics
 Version: 0.0.0.9000
 Authors@R: 
-    person("First", "Last", , "first.last@example.com", role = c("aut", "cre"),
-           comment = c(ORCID = "YOUR-ORCID-ID"))
-Description: What the package does (one paragraph).
-License: `use_mit_license()`, `use_gpl3_license()` or friends to pick a
-    license
+    person("Jennifer", "Perry", , "jenlyperry@gmail.com", role = c("aut"),
+           comment = c(ORCID = "0000-0001-9919-3663"))
+Description: Using NZ CPI data from the Stats NZ website or the saved CPI data this package can plot and calculate the percentage change of the NZ CPI between given dates and can apply the NZ CPI to given data.
+License: `use_gpl3_license()`
 Encoding: UTF-8
+LazyData: TRUE
 Roxygen: list(markdown = TRUE)
 RoxygenNote: 7.2.1
+Depends: 
+    R (>= 2.10)
+Imports:
+    lubridate (>= 1.8.0),
+    zoo (>= 1.8-10)
+Suggests:
+    ggplot2 (>= 3.3.6),
+    scales (>= 1.2.0)
