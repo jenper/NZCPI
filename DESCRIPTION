@@ -19,5 +19,7 @@ Suggests:
     ggplot2 (>= 3.3.6),
     knitr,
     rmarkdown,
-    scales (>= 1.2.0)
+    scales (>= 1.2.0),
+    testthat (>= 3.0.0)
 VignetteBuilder: knitr
+Config/testthat/edition: 3

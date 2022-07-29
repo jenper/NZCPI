@@ -17,3 +17,11 @@ knitr::opts_chunk$set(
 ```{r setup}
 library(NZCPI)
 ```
+
+Download latest CPI csv file (begins with 'consumers-price-index' ends with 'index-numbers.csv') from StatsNZ https://www.stats.govt.nz/large-datasets/csv-files-for-download/ and use as input in the 'create_cpi_df' function or use built in data set 'nz_cpi_data' (updated to June 2022) to view NZ's Consumer Price Index by quarter. 
+
+You can use your own date range with 'start' and 'end' date arguments in all the functions or use the default start and end dates of the built in nz_cpi_data data set.  
+
+Use the function 'plot_cpi' to display the CPI.
+
+For detail on how the CPI has changed you can use the 'perc_change_cpi' function to see what the percentage change in CPI was between dates or use the 'apply_cpi' function on a single value or vector of values (such as column of a data frame) to adjust values for inflation and see how consumers purchasing power has changed over time.    
