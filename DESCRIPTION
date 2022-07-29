@@ -17,4 +17,7 @@ Imports:
     zoo (>= 1.8-10)
 Suggests:
     ggplot2 (>= 3.3.6),
+    knitr,
+    rmarkdown,
     scales (>= 1.2.0)
+VignetteBuilder: knitr
